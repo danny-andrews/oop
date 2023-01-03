@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  gap: .5rem;
+}
+
+
+.counter {
+  border: 1px dashed black;
+  padding: .25rem;
+}
+
+.counter > * + * {
+  margin-left: .25rem;
+}
